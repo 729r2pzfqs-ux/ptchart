@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>R-507A PT Chart — Pressure Temperature Table</title>
+<meta name="description" content="R-507A pressure-temperature chart: saturation pressures in PSIG, PSIA, kPa from -80°F to 150°F. Safety: A1, GWP: 3985.">
+<link rel="canonical" href="https://ptchart.org/r-507a/">
+<meta property="og:title" content="R-507A PT Chart — Pressure Temperature Table">
+<meta property="og:description" content="R-507A pressure-temperature chart: saturation pressures in PSIG, PSIA, kPa from -80°F to 150°F. Safety: A1, GWP: 3985.">
+<meta property="og:url" content="https://ptchart.org/r-507a/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PT Chart">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0891b2">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+<nav class="bg-cyan-700 text-white shadow-lg">
+<div class="max-w-6xl mx-auto px-4">
+<div class="flex items-center justify-between h-16">
+<a href="/" class="text-xl font-bold flex items-center gap-2">
+<svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+PT Chart
+</a>
+<div class="hidden md:flex items-center gap-5 text-sm">
+<a href="/r-410a/" class="hover:text-cyan-200">R-410A</a><a href="/r-22/" class="hover:text-cyan-200">R-22</a><a href="/r-134a/" class="hover:text-cyan-200">R-134a</a><a href="/r-454b/" class="hover:text-cyan-200">R-454B</a><a href="/r-404a/" class="hover:text-cyan-200">R-404A</a><a href="/r-407c/" class="hover:text-cyan-200">R-407C</a>
+<a href="/all/" class="hover:text-cyan-200">All</a>
+<a href="/calculator/" class="hover:text-cyan-200">Calculator</a>
+</div>
+<button onclick="document.getElementById('mob-menu').classList.toggle('hidden')" class="md:hidden p-2">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+</button>
+</div>
+</div>
+<div id="mob-menu" class="hidden md:hidden px-4 pb-3 space-y-2">
+<a href="/r-410a/" class="block py-1 hover:text-cyan-200">R-410A</a><a href="/r-22/" class="block py-1 hover:text-cyan-200">R-22</a><a href="/r-134a/" class="block py-1 hover:text-cyan-200">R-134a</a><a href="/r-454b/" class="block py-1 hover:text-cyan-200">R-454B</a><a href="/r-404a/" class="block py-1 hover:text-cyan-200">R-404A</a><a href="/r-407c/" class="block py-1 hover:text-cyan-200">R-407C</a>
+<a href="/all/" class="block py-1 hover:text-cyan-200">All Refrigerants</a>
+<a href="/calculator/" class="block py-1 hover:text-cyan-200">Calculator</a>
+</div>
+</nav>
+<main class="max-w-5xl mx-auto px-4 py-8">
+<div class="text-sm py-3"><a href="/" class="text-cyan-700 hover:underline">Home</a> <span class="text-gray-400 mx-1">›</span> <span class="text-gray-500">R-507A</span></div>
+
+<div class="flex flex-wrap items-center gap-3 mb-2">
+<h1 class="text-3xl font-bold text-gray-900">R-507A PT Chart</h1>
+<span class="inline-block px-2 py-0.5 rounded text-xs font-semibold bg-green-100 text-green-800">A1</span> <span class="inline-block px-2 py-0.5 rounded text-xs font-semibold bg-red-100 text-red-800">GWP 3985</span>
+</div>
+<p class="text-gray-600 mb-4">Azeotropic blend (R-125/R-143a). HFC Blend.</p>
+<div class="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-6"><p class="text-yellow-800">Phase-down (high GWP)</p></div>
+
+<div class="grid md:grid-cols-3 gap-4 mb-8">
+<div class="bg-white rounded-lg border p-4 text-center">
+<div class="text-xs text-gray-500">Boiling Point</div>
+<div class="text-xl font-bold text-gray-900">-52.1°F</div>
+<div class="text-sm text-gray-500">-46.7°C</div>
+</div>
+<div class="bg-white rounded-lg border p-4 text-center">
+<div class="text-xs text-gray-500">Critical Temp</div>
+<div class="text-xl font-bold text-gray-900">159.1°F</div>
+<div class="text-sm text-gray-500">70.6°C</div>
+</div>
+<div class="bg-white rounded-lg border p-4 text-center">
+<div class="text-xs text-gray-500">Critical Pressure</div>
+<div class="text-xl font-bold text-gray-900">537.4 psia</div>
+<div class="text-sm text-gray-500">37.05 bar</div>
+</div>
+</div>
+
+<section class="mb-8">
+<h2 class="text-xl font-bold text-gray-900 mb-3">R-507A Pressure-Temperature Graph</h2>
+<div class="bg-white rounded-lg border p-4">
+<canvas id="ptChart" height="300"></canvas>
+</div>
+</section>
+
+<section class="mb-8">
+<h2 class="text-xl font-bold text-gray-900 mb-3">R-507A Saturation Pressure Table</h2>
+<p class="text-sm text-gray-500 mb-3">Blue values indicate vacuum (below atmospheric pressure).</p>
+<div class="overflow-x-auto bg-white rounded-lg border">
+<table class="w-full text-sm">
+<thead><tr class="bg-cyan-700 text-white">
+<th class="px-3 py-2">°F</th>
+<th class="px-3 py-2">°C</th>
+<th class="px-3 py-2 text-right">PSIG</th>
+<th class="px-3 py-2 text-right">PSIA</th>
+<th class="px-3 py-2 text-right">kPa</th>
+<th class="px-3 py-2 text-right">bar</th>
+</tr></thead>
+<tbody class="divide-y"><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">-80</td><td class="px-3 py-1.5 text-center">-62.2</td><td class="px-3 py-1.5 text-right font-medium" class="text-blue-600">-8.2</td><td class="px-3 py-1.5 text-right">6.54</td><td class="px-3 py-1.5 text-right">45.1</td><td class="px-3 py-1.5 text-right">0.451</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">-75</td><td class="px-3 py-1.5 text-center">-59.4</td><td class="px-3 py-1.5 text-right font-medium" class="text-blue-600">-7.1</td><td class="px-3 py-1.5 text-right">7.64</td><td class="px-3 py-1.5 text-right">52.6</td><td class="px-3 py-1.5 text-right">0.526</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">-70</td><td class="px-3 py-1.5 text-center">-56.7</td><td class="px-3 py-1.5 text-right font-medium" class="text-blue-600">-5.8</td><td class="px-3 py-1.5 text-right">8.88</td><td class="px-3 py-1.5 text-right">61.2</td><td class="px-3 py-1.5 text-right">0.612</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">-65</td><td class="px-3 py-1.5 text-center">-53.9</td><td class="px-3 py-1.5 text-right font-medium" class="text-blue-600">-4.4</td><td class="px-3 py-1.5 text-right">10.28</td><td class="px-3 py-1.5 text-right">70.9</td><td class="px-3 py-1.5 text-right">0.709</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">-60</td><td class="px-3 py-1.5 text-center">-51.1</td><td class="px-3 py-1.5 text-right font-medium" class="text-blue-600">-2.8</td><td class="px-3 py-1.5 text-right">11.85</td><td class="px-3 py-1.5 text-right">81.7</td><td class="px-3 py-1.5 text-right">0.817</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">-55</td><td class="px-3 py-1.5 text-center">-48.3</td><td class="px-3 py-1.5 text-right font-medium" class="text-blue-600">-1.1</td><td class="px-3 py-1.5 text-right">13.6</td><td class="px-3 py-1.5 text-right">93.8</td><td class="px-3 py-1.5 text-right">0.938</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">-50</td><td class="px-3 py-1.5 text-center">-45.6</td><td class="px-3 py-1.5 text-right font-medium">0.9</td><td class="px-3 py-1.5 text-right">15.55</td><td class="px-3 py-1.5 text-right">107.2</td><td class="px-3 py-1.5 text-right">1.072</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">-45</td><td class="px-3 py-1.5 text-center">-42.8</td><td class="px-3 py-1.5 text-right font-medium">3.0</td><td class="px-3 py-1.5 text-right">17.72</td><td class="px-3 py-1.5 text-right">122.2</td><td class="px-3 py-1.5 text-right">1.222</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">-40</td><td class="px-3 py-1.5 text-center">-40.0</td><td class="px-3 py-1.5 text-right font-medium">5.4</td><td class="px-3 py-1.5 text-right">20.11</td><td class="px-3 py-1.5 text-right">138.7</td><td class="px-3 py-1.5 text-right">1.387</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">-35</td><td class="px-3 py-1.5 text-center">-37.2</td><td class="px-3 py-1.5 text-right font-medium">8.1</td><td class="px-3 py-1.5 text-right">22.75</td><td class="px-3 py-1.5 text-right">156.9</td><td class="px-3 py-1.5 text-right">1.569</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">-30</td><td class="px-3 py-1.5 text-center">-34.4</td><td class="px-3 py-1.5 text-right font-medium">11.0</td><td class="px-3 py-1.5 text-right">25.65</td><td class="px-3 py-1.5 text-right">176.9</td><td class="px-3 py-1.5 text-right">1.769</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">-25</td><td class="px-3 py-1.5 text-center">-31.7</td><td class="px-3 py-1.5 text-right font-medium">14.1</td><td class="px-3 py-1.5 text-right">28.83</td><td class="px-3 py-1.5 text-right">198.8</td><td class="px-3 py-1.5 text-right">1.988</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">-20</td><td class="px-3 py-1.5 text-center">-28.9</td><td class="px-3 py-1.5 text-right font-medium">17.6</td><td class="px-3 py-1.5 text-right">32.3</td><td class="px-3 py-1.5 text-right">222.7</td><td class="px-3 py-1.5 text-right">2.227</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">-15</td><td class="px-3 py-1.5 text-center">-26.1</td><td class="px-3 py-1.5 text-right font-medium">21.4</td><td class="px-3 py-1.5 text-right">36.09</td><td class="px-3 py-1.5 text-right">248.8</td><td class="px-3 py-1.5 text-right">2.488</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">-10</td><td class="px-3 py-1.5 text-center">-23.3</td><td class="px-3 py-1.5 text-right font-medium">25.5</td><td class="px-3 py-1.5 text-right">40.21</td><td class="px-3 py-1.5 text-right">277.2</td><td class="px-3 py-1.5 text-right">2.772</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">-5</td><td class="px-3 py-1.5 text-center">-20.6</td><td class="px-3 py-1.5 text-right font-medium">30.0</td><td class="px-3 py-1.5 text-right">44.68</td><td class="px-3 py-1.5 text-right">308.1</td><td class="px-3 py-1.5 text-right">3.081</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">0</td><td class="px-3 py-1.5 text-center">-17.8</td><td class="px-3 py-1.5 text-right font-medium">34.8</td><td class="px-3 py-1.5 text-right">49.52</td><td class="px-3 py-1.5 text-right">341.4</td><td class="px-3 py-1.5 text-right">3.414</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">5</td><td class="px-3 py-1.5 text-center">-15.0</td><td class="px-3 py-1.5 text-right font-medium">40.0</td><td class="px-3 py-1.5 text-right">54.75</td><td class="px-3 py-1.5 text-right">377.5</td><td class="px-3 py-1.5 text-right">3.775</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">10</td><td class="px-3 py-1.5 text-center">-12.2</td><td class="px-3 py-1.5 text-right font-medium">45.7</td><td class="px-3 py-1.5 text-right">60.38</td><td class="px-3 py-1.5 text-right">416.3</td><td class="px-3 py-1.5 text-right">4.163</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">15</td><td class="px-3 py-1.5 text-center">-9.4</td><td class="px-3 py-1.5 text-right font-medium">51.8</td><td class="px-3 py-1.5 text-right">66.45</td><td class="px-3 py-1.5 text-right">458.1</td><td class="px-3 py-1.5 text-right">4.581</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">20</td><td class="px-3 py-1.5 text-center">-6.7</td><td class="px-3 py-1.5 text-right font-medium">58.3</td><td class="px-3 py-1.5 text-right">72.96</td><td class="px-3 py-1.5 text-right">503.1</td><td class="px-3 py-1.5 text-right">5.031</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">25</td><td class="px-3 py-1.5 text-center">-3.9</td><td class="px-3 py-1.5 text-right font-medium">65.3</td><td class="px-3 py-1.5 text-right">79.95</td><td class="px-3 py-1.5 text-right">551.2</td><td class="px-3 py-1.5 text-right">5.512</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">30</td><td class="px-3 py-1.5 text-center">-1.1</td><td class="px-3 py-1.5 text-right font-medium">72.7</td><td class="px-3 py-1.5 text-right">87.43</td><td class="px-3 py-1.5 text-right">602.8</td><td class="px-3 py-1.5 text-right">6.028</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">35</td><td class="px-3 py-1.5 text-center">1.7</td><td class="px-3 py-1.5 text-right font-medium">80.7</td><td class="px-3 py-1.5 text-right">95.42</td><td class="px-3 py-1.5 text-right">657.9</td><td class="px-3 py-1.5 text-right">6.579</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">40</td><td class="px-3 py-1.5 text-center">4.4</td><td class="px-3 py-1.5 text-right font-medium">89.3</td><td class="px-3 py-1.5 text-right">103.95</td><td class="px-3 py-1.5 text-right">716.7</td><td class="px-3 py-1.5 text-right">7.167</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">45</td><td class="px-3 py-1.5 text-center">7.2</td><td class="px-3 py-1.5 text-right font-medium">98.3</td><td class="px-3 py-1.5 text-right">113.03</td><td class="px-3 py-1.5 text-right">779.3</td><td class="px-3 py-1.5 text-right">7.793</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">50</td><td class="px-3 py-1.5 text-center">10.0</td><td class="px-3 py-1.5 text-right font-medium">108.0</td><td class="px-3 py-1.5 text-right">122.7</td><td class="px-3 py-1.5 text-right">846.0</td><td class="px-3 py-1.5 text-right">8.46</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">55</td><td class="px-3 py-1.5 text-center">12.8</td><td class="px-3 py-1.5 text-right font-medium">118.3</td><td class="px-3 py-1.5 text-right">132.98</td><td class="px-3 py-1.5 text-right">916.9</td><td class="px-3 py-1.5 text-right">9.169</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">60</td><td class="px-3 py-1.5 text-center">15.6</td><td class="px-3 py-1.5 text-right font-medium">129.2</td><td class="px-3 py-1.5 text-right">143.88</td><td class="px-3 py-1.5 text-right">992.0</td><td class="px-3 py-1.5 text-right">9.92</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">65</td><td class="px-3 py-1.5 text-center">18.3</td><td class="px-3 py-1.5 text-right font-medium">140.7</td><td class="px-3 py-1.5 text-right">155.44</td><td class="px-3 py-1.5 text-right">1071.8</td><td class="px-3 py-1.5 text-right">10.718</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">70</td><td class="px-3 py-1.5 text-center">21.1</td><td class="px-3 py-1.5 text-right font-medium">153.0</td><td class="px-3 py-1.5 text-right">167.69</td><td class="px-3 py-1.5 text-right">1156.2</td><td class="px-3 py-1.5 text-right">11.562</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">75</td><td class="px-3 py-1.5 text-center">23.9</td><td class="px-3 py-1.5 text-right font-medium">165.9</td><td class="px-3 py-1.5 text-right">180.64</td><td class="px-3 py-1.5 text-right">1245.4</td><td class="px-3 py-1.5 text-right">12.454</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">80</td><td class="px-3 py-1.5 text-center">26.7</td><td class="px-3 py-1.5 text-right font-medium">179.6</td><td class="px-3 py-1.5 text-right">194.32</td><td class="px-3 py-1.5 text-right">1339.8</td><td class="px-3 py-1.5 text-right">13.398</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">85</td><td class="px-3 py-1.5 text-center">29.4</td><td class="px-3 py-1.5 text-right font-medium">194.1</td><td class="px-3 py-1.5 text-right">208.76</td><td class="px-3 py-1.5 text-right">1439.4</td><td class="px-3 py-1.5 text-right">14.394</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">90</td><td class="px-3 py-1.5 text-center">32.2</td><td class="px-3 py-1.5 text-right font-medium">209.3</td><td class="px-3 py-1.5 text-right">224.0</td><td class="px-3 py-1.5 text-right">1544.4</td><td class="px-3 py-1.5 text-right">15.444</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">95</td><td class="px-3 py-1.5 text-center">35.0</td><td class="px-3 py-1.5 text-right font-medium">225.4</td><td class="px-3 py-1.5 text-right">240.06</td><td class="px-3 py-1.5 text-right">1655.2</td><td class="px-3 py-1.5 text-right">16.552</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">100</td><td class="px-3 py-1.5 text-center">37.8</td><td class="px-3 py-1.5 text-right font-medium">242.3</td><td class="px-3 py-1.5 text-right">256.98</td><td class="px-3 py-1.5 text-right">1771.8</td><td class="px-3 py-1.5 text-right">17.718</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">105</td><td class="px-3 py-1.5 text-center">40.6</td><td class="px-3 py-1.5 text-right font-medium">260.1</td><td class="px-3 py-1.5 text-right">274.78</td><td class="px-3 py-1.5 text-right">1894.6</td><td class="px-3 py-1.5 text-right">18.946</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">110</td><td class="px-3 py-1.5 text-center">43.3</td><td class="px-3 py-1.5 text-right font-medium">278.8</td><td class="px-3 py-1.5 text-right">293.51</td><td class="px-3 py-1.5 text-right">2023.7</td><td class="px-3 py-1.5 text-right">20.237</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">115</td><td class="px-3 py-1.5 text-center">46.1</td><td class="px-3 py-1.5 text-right font-medium">298.5</td><td class="px-3 py-1.5 text-right">313.2</td><td class="px-3 py-1.5 text-right">2159.4</td><td class="px-3 py-1.5 text-right">21.594</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">120</td><td class="px-3 py-1.5 text-center">48.9</td><td class="px-3 py-1.5 text-right font-medium">319.2</td><td class="px-3 py-1.5 text-right">333.89</td><td class="px-3 py-1.5 text-right">2302.1</td><td class="px-3 py-1.5 text-right">23.021</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">125</td><td class="px-3 py-1.5 text-center">51.7</td><td class="px-3 py-1.5 text-right font-medium">340.9</td><td class="px-3 py-1.5 text-right">355.64</td><td class="px-3 py-1.5 text-right">2452.0</td><td class="px-3 py-1.5 text-right">24.52</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">130</td><td class="px-3 py-1.5 text-center">54.4</td><td class="px-3 py-1.5 text-right font-medium">363.8</td><td class="px-3 py-1.5 text-right">378.48</td><td class="px-3 py-1.5 text-right">2609.5</td><td class="px-3 py-1.5 text-right">26.095</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">135</td><td class="px-3 py-1.5 text-center">57.2</td><td class="px-3 py-1.5 text-right font-medium">387.8</td><td class="px-3 py-1.5 text-right">402.48</td><td class="px-3 py-1.5 text-right">2775.0</td><td class="px-3 py-1.5 text-right">27.75</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">140</td><td class="px-3 py-1.5 text-center">60.0</td><td class="px-3 py-1.5 text-right font-medium">413.0</td><td class="px-3 py-1.5 text-right">427.7</td><td class="px-3 py-1.5 text-right">2948.9</td><td class="px-3 py-1.5 text-right">29.489</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">145</td><td class="px-3 py-1.5 text-center">62.8</td><td class="px-3 py-1.5 text-right font-medium">439.5</td><td class="px-3 py-1.5 text-right">454.23</td><td class="px-3 py-1.5 text-right">3131.8</td><td class="px-3 py-1.5 text-right">31.318</td></tr><tr class="hover:bg-cyan-50"><td class="px-3 py-1.5 text-center">150</td><td class="px-3 py-1.5 text-center">65.6</td><td class="px-3 py-1.5 text-right font-medium">467.5</td><td class="px-3 py-1.5 text-right">482.17</td><td class="px-3 py-1.5 text-right">3324.4</td><td class="px-3 py-1.5 text-right">33.244</td></tr></tbody>
+</table>
+</div>
+</section>
+
+<section class="mb-8">
+<h2 class="text-xl font-bold text-gray-900 mb-3">Properties</h2>
+<div class="bg-white rounded-lg border overflow-x-auto">
+<table class="w-full text-sm">
+<tbody>
+<tr class="border-b"><td class="px-4 py-2 font-medium">ASHRAE Designation</td><td class="px-4 py-2">507A</td></tr>
+<tr class="border-b bg-gray-50"><td class="px-4 py-2 font-medium">Safety Classification</td><td class="px-4 py-2">A1 (non-flammable, low toxicity)</td></tr>
+<tr class="border-b"><td class="px-4 py-2 font-medium">GWP (AR5)</td><td class="px-4 py-2">3985</td></tr>
+<tr class="border-b bg-gray-50"><td class="px-4 py-2 font-medium">ODP</td><td class="px-4 py-2">0</td></tr>
+<tr class="border-b"><td class="px-4 py-2 font-medium">Molecular Weight</td><td class="px-4 py-2">98.86 g/mol</td></tr>
+<tr class="border-b bg-gray-50"><td class="px-4 py-2 font-medium">Boiling Point (1 atm)</td><td class="px-4 py-2">-52.1°F / -46.7°C</td></tr>
+<tr class="border-b"><td class="px-4 py-2 font-medium">Critical Temperature</td><td class="px-4 py-2">159.1°F / 70.6°C</td></tr>
+<tr class="border-b bg-gray-50"><td class="px-4 py-2 font-medium">Critical Pressure</td><td class="px-4 py-2">537.4 psia / 37.05 bar</td></tr>
+<tr><td class="px-4 py-2 font-medium">Category</td><td class="px-4 py-2">HFC Blend</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section class="mb-8">
+<h2 class="text-xl font-bold text-gray-900 mb-3">Common Applications</h2>
+<ul class="list-disc pl-6 text-gray-700 space-y-1"><li>Low-temp refrigeration</li><li>Ice machines</li><li>Transport refrigeration</li></ul>
+</section>
+
+</main>
+<footer class="bg-gray-100 border-t mt-16">
+<div class="max-w-6xl mx-auto px-4 py-10">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
+<div>
+<h3 class="font-semibold text-gray-800 mb-3">Popular Charts</h3>
+<ul class="space-y-1 text-sm text-gray-600"><li><a href="/r-410a/" class="hover:text-cyan-700">R-410A</a></li><li><a href="/r-22/" class="hover:text-cyan-700">R-22</a></li><li><a href="/r-134a/" class="hover:text-cyan-700">R-134a</a></li><li><a href="/r-454b/" class="hover:text-cyan-700">R-454B</a></li><li><a href="/r-404a/" class="hover:text-cyan-700">R-404A</a></li><li><a href="/r-407c/" class="hover:text-cyan-700">R-407C</a></li><li><a href="/r-32/" class="hover:text-cyan-700">R-32</a></li><li><a href="/r-290/" class="hover:text-cyan-700">R-290 (Propane)</a></li></ul>
+</div>
+<div>
+<h3 class="font-semibold text-gray-800 mb-3">Categories</h3>
+<ul class="space-y-1 text-sm text-gray-600">
+<li><a href="/category/hfc/" class="hover:text-cyan-700">HFC Refrigerants</a></li>
+<li><a href="/category/hfo/" class="hover:text-cyan-700">HFO Refrigerants</a></li>
+<li><a href="/category/natural/" class="hover:text-cyan-700">Natural Refrigerants</a></li>
+<li><a href="/category/legacy/" class="hover:text-cyan-700">Legacy / Phased Out</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-semibold text-gray-800 mb-3">Tools</h3>
+<ul class="space-y-1 text-sm text-gray-600">
+<li><a href="/calculator/" class="hover:text-cyan-700">PT Calculator</a></li>
+<li><a href="/superheat/" class="hover:text-cyan-700">Superheat Table</a></li>
+<li><a href="/compare/" class="hover:text-cyan-700">Compare Refrigerants</a></li>
+<li><a href="/all/" class="hover:text-cyan-700">All Refrigerants</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-semibold text-gray-800 mb-3">Info</h3>
+<ul class="space-y-1 text-sm text-gray-600">
+<li><a href="/r-454b/" class="hover:text-cyan-700">R-454B (New Standard)</a></li>
+<li><a href="/compare/r-410a-vs-r-454b/" class="hover:text-cyan-700">R-410A vs R-454B</a></li>
+<li><a href="/about/" class="hover:text-cyan-700">About</a></li>
+</ul>
+</div>
+</div>
+<div class="border-t pt-6 text-sm text-gray-500 text-center">
+<p>&copy; 2026 PT Chart — Refrigerant Pressure-Temperature Charts</p>
+<p class="mt-1">Data from NIST/CoolProp thermodynamic library. Contact: <a href="mailto:info@ptchart.org" class="text-cyan-700 hover:underline">info@ptchart.org</a></p>
+<p class="mt-1"><a href="/about/" class="hover:underline">About</a> · <a href="/sitemap.xml" class="hover:underline">Sitemap</a></p>
+</div>
+</div>
+</footer>
+
+<script>
+const chartTemps = [-80, -75, -70, -65, -60, -55, -50, -45, -40, -35, -30, -25, -20, -15, -10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130, 135, 140, 145, 150]; const chartPressures = [-8.2, -7.1, -5.8, -4.4, -2.8, -1.1, 0.9, 3.0, 5.4, 8.1, 11.0, 14.1, 17.6, 21.4, 25.5, 30.0, 34.8, 40.0, 45.7, 51.8, 58.3, 65.3, 72.7, 80.7, 89.3, 98.3, 108.0, 118.3, 129.2, 140.7, 153.0, 165.9, 179.6, 194.1, 209.3, 225.4, 242.3, 260.1, 278.8, 298.5, 319.2, 340.9, 363.8, 387.8, 413.0, 439.5, 467.5];
+new Chart(document.getElementById('ptChart'), {
+    type: 'line',
+    data: {
+        labels: chartTemps.map(t => t + '°F'),
+        datasets: [{
+            label: 'R-507A Saturation Pressure (PSIG)',
+            data: chartPressures,
+            borderColor: '#0891b2',
+            backgroundColor: 'rgba(8,145,178,0.1)',
+            fill: true,
+            tension: 0.3,
+            pointRadius: 2,
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: { legend: { display: false } },
+        scales: {
+            x: { title: { display: true, text: 'Temperature (°F)' } },
+            y: { title: { display: true, text: 'Pressure (PSIG)' } }
+        }
+    }
+});
+</script>
+</body></html>

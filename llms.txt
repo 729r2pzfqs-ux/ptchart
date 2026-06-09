@@ -1,0 +1,23 @@
+# PT Chart — ptchart.org
+
+> Free refrigerant pressure-temperature saturation charts for 29 refrigerants. Data from NIST/CoolProp thermodynamic library. Built for HVAC technicians.
+
+## Popular Refrigerants
+
+- [R-410A PT Chart](https://ptchart.org/r-410a/): Residential AC standard (being replaced by R-454B)
+- [R-454B PT Chart](https://ptchart.org/r-454b/): NEW standard since Jan 2025
+- [R-22 PT Chart](https://ptchart.org/r-22/): Legacy Freon (banned, service only)
+- [R-134a PT Chart](https://ptchart.org/r-134a/): Automotive AC
+- [R-404A PT Chart](https://ptchart.org/r-404a/): Commercial refrigeration
+- [R-32 PT Chart](https://ptchart.org/r-32/): Low-GWP alternative
+
+## Tools
+
+- [PT Calculator](https://ptchart.org/calculator/): Temperature ↔ pressure lookup for any refrigerant
+- [Superheat & Subcooling](https://ptchart.org/superheat/): Target values and measurement guide
+- [Compare Refrigerants](https://ptchart.org/compare/): Side-by-side PT chart comparisons
+- [All Refrigerants](https://ptchart.org/all/): Complete list of 29 refrigerants
+
+## Data
+
+Each refrigerant page includes: saturation P-T table (PSIG, PSIA, kPa, bar), interactive chart, properties (GWP, ODP, safety class, critical point, boiling point), and common applications.
